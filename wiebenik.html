@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wie ben ik Joris</title>
 </head>
+
 <body>
+    <header>
+        <button onclick="myFunction()" class="DMbutton">Dark Mode</button>
+    </header>
     <article>
-    <h1>Wie ben ik</h1>
-    <img src="img/Afbeelding1.jpg" alt="Foto van mij">
-    <p>Ik woon in Alkmaar en zat op school op PCC Fabritius.
-        Ik heb Vmbo-tl gedaan en volg nu de opleiding Software Developer om een Game Developer te worden.
+        <h1 class="achtergrond">Wie ben ik</h1>
+        <div class="div_links">
+        <img class="rond" src="img/joris.jpg" alt="iK" height="300px" width="300px">
+        <p>Ik woon in Alkmaar en zat op school op PCC Fabritius.
+            Ik heb Vmbo-tl gedaan en volg nu de opleiding Software Developer om een Game Developer te worden.
         </p>
-        <p>Ik woon in Alkmaar.</p>
-        <img src="img/Afbeelding2.jpg" alt="de grachten van Alkmaar met kerk op achtergrond">
+        </div>
+
+        <h2>Mijn Woonplaats</h2>
+        <div class="div_rechts">
+        <img src="img/Afbeelding2.jpg" alt="De grachten van alkmaar met kerk op achtergrond">
+        <p>Ik woon in Alkmaar.
+        </p>
+        </div>
+
+        <h2>In mijn vrije tijd</h2>
+        <div class="div_links">
+        <img src="img/Afbeelding3.png" alt height="300px">
         <p>In mijn vrije tijd game ik vooral veel,
-             maar ik doe ook aan kickboksen.
+            maar ik doe ook aan kickboksen.
         </p>
-        
-        <img src="img/Afbeelding3.png" alt="een steam deck die aanstaat met spellen op het startscherm">
+        </div>
+
+        <h2>Wat kan ik al?</h2>
+        <div class="div_rechts">
+        <img src="img/Afbeelding4.jpg" alt height="300px ">
         <p>Gamen en communiceren in het engels.
         </p>
-        <img src="img/Afbeelding4.jpg" alt="een meme waarin lara croft aan mario vraagt of hij weer door een plant is opgegeten en daarna zegt dat hij meer moet gamen om zijn motorische vaardigheden te verbeteren">
-        <p>1. The Last of Us Part II
-            2. Red Dead Redemption 2
-            3. The Witcher 3: Wild Hunt – Complete Editon
-            4. The Legend of Zelda: Breath of the Wild
-            5. Warframe 
-            6. Astro Bot
-            7. Cyberpunk 2077
-            8. God of War Ragnarok
-            9. The Last of Us Remastered
-            10. Ghost of Tsushima: Director’s Cut
-            </p>
+        </div>
+
+        <h2>Mijn top 10 games</h2>
+        <ol>
+            <li>The Last of Us Part II</li>
+            <li>Red Dead Redemption 2</li>
+            <li>The Witcher 3: Wild Hunt – Complete Editon</li>
+            <li>The Legend of Zelda: Breath of the Wild</li>
+            <li>Warframe</li>
+            <li>Astro Bot</li>
+            <li>Cyberpunk 2077</li>
+            <li>God of War Ragnarok</li>
+            <li>The Last of Us Remastered</li>
+            <li>Ghost of Tsushima: Director’s Cut</li>
+        </ol>
+        </p>
     </article>
+    <footer>
+        dit is de footer
+    </footer>
 </body>
+<script>    function myFunction() {    var element = document.body;        element.classList.toggle("dark-modebody");}{ }</script>
 </html>

@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #32292F;
     font-size: 20px;
 }
 
-h1{
+.achtergrond{
+    background-color: #F0F7F4;
     font-size:250%;
     margin-bottom:20px;
 }
@@ -15,12 +17,63 @@ h1{
 article{
     width:60vw;
     padding:40px;
+    margin: 0 auto;
+}
+h2{
+    color: #F0F7F4;
 }
 
-img{
-    
-}
 
 p{
     margin-bottom: 40px;
+    color: #F0F7F4;
+}
+
+.div_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div_rechts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+header{
+    background-color: #99E1D9;
+    color:#70ABAF;
+    height: 60px;
+}
+
+footer{
+    background-color: #705D56;
+    color:#F0F7F4;
+    height: 60px;
+}
+
+img.rond{
+    border-radius: 50%
+
+
+
+}
+ol{
+    color: #F0F7F4;
+}
+
+h1{
+    border-bottom: 5px solid grey;
+}
+
+.DMbutton{
+    background-color: wheat;
+}
+
+.dark-modebody{
+    background-color: black;
+    color: white
 }
